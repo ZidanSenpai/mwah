@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    background: #fff0f2;
+    font-family: Delius;
+    color: #50011e;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.gif {
+  border-radius: 30px;
+  width: 300px;     /* or any size you prefer */
+  height: 300px;
+  object-fit: cover; /* or 'contain' depending on your need */
+}
+.text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#text{
+    width: 370px;
+}
+button {
+    background-color: #ffcbd5;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 10em;
+    border-radius: 1rem;
+    color: lightcoral;
+    box-shadow: 0 0.4rem #dfd9d9;
+    cursor: pointer;
+}
+
+button:active {
+    color: white;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);
+}
+
+button:hover:not(:disabled) {
+    background: lightcoral;
+    color: white;
+    text-shadow: 0 0.1rem #bcb4b4;
+}
+
+button:disabled {
+    cursor: auto;
+    color: grey;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+h1{
+    margin-top: 20px;
+    font-size: 40px;
+}
+.pp{
+    font-size: 20px;
+    margin-top: 10px;
+}
+#yes{
+    margin-right: 20px;
+}
+#no{
+    margin-left: 20px;
+}
